@@ -1,4 +1,4 @@
 load:
   - src\*.js
 test:
-  - src-tests\*.js
+  - tests\*.js
