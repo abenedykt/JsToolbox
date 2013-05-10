@@ -5,22 +5,26 @@
  * Time: 20:24
  */
 
-function format(input, format) {
 
-    function addLeadingZeros() {
-        while (value.length < format.length) {
-            value = '0' + value;
-        }
-    }
+var jsToolbox = (function () {
 
-    function formatIsProvided(format) {
-        return format != undefined;
-    }
+    var addLeadingZeros = function (value,format) {
+            while (value.length < format.length) {
+                value = '0' + value;
+            }
+            return value;
+        },
+        formatIsProvided = function (format) {
+            return format != undefined;
+        },
+        format = function (input, format) {
 
-    var value = String(input);
+            var value = String(input);
 
-    if (formatIsProvided(format)) {
-        addLeadingZeros();
-    }
-    return value;
-}
+            if (formatIsProvided(format)) {
+                value = addLeadingZeros(value,format);
+            }
+            return value;
+        };
+    return {format: format};
+}());
