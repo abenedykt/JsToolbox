@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72598d28-168b-4a52-9171-0f7d1028df30" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Visual Studio Projects\Personal Projects\JsToolbox\tests\LeedingZerosFormaterTests.js" afterPath="$PROJECT_DIR$/tests/jsToolboxTests.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JsToolbox.iws" />
@@ -11,7 +10,7 @@
     <file path="/LeedingZerosFormaterTests.js" changelist="72598d28-168b-4a52-9171-0f7d1028df30" time="1368129134821" ignored="false" />
     <file path="/StringFormater.js" changelist="72598d28-168b-4a52-9171-0f7d1028df30" time="1368211282047" ignored="false" />
     <file path="/fragment.js2" changelist="72598d28-168b-4a52-9171-0f7d1028df30" time="1368129023584" ignored="false" />
-    <file path="/Dummy.txt" changelist="72598d28-168b-4a52-9171-0f7d1028df30" time="1368276182907" ignored="false" />
+    <file path="/Dummy.txt" changelist="72598d28-168b-4a52-9171-0f7d1028df30" time="1368276833586" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +333,11 @@
       <created>1368276184581</created>
       <updated>1368276184581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="filename refactor&#10;">
+      <created>1368276846027</created>
+      <updated>1368276846027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
