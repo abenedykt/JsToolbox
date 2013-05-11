@@ -8,7 +8,7 @@
 
 var jsToolbox = (function () {
 
-    var addLeadingZeros = function (value,format) {
+    var addLeadingZeros = function (value, format) {
             while (value.length < format.length) {
                 value = '0' + value;
             }
@@ -22,7 +22,7 @@ var jsToolbox = (function () {
             var value = String(input);
 
             if (formatIsProvided(format)) {
-                value = addLeadingZeros(value,format);
+                value = addLeadingZeros(value, format);
             }
             return value;
         };
